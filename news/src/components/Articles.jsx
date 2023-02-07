@@ -29,6 +29,7 @@ function Articles() {
         ); 
         
     }
+    
     return ( 
         <section className={`articles container mt-2 ${isLoading === false ? "display-enabled" : ""}`}>
             <h2>articles</h2>
